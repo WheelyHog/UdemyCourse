@@ -3,11 +3,19 @@ body{
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
 
+p{
+  color: grey;
+  font-size: 18px; 
+}
 #title{
   background-color: #ff4c68;
   color: #fff;
@@ -38,3 +46,28 @@ h1{
 }
 
 /* Download Button  */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image  */
+
+.title-image{
+  width: 40%;
+  transform: rotate(25deg);
+}
+
+#features{
+  padding: 7% 15%;;
+}
+.feature-box i{
+  font-size: 60px;
+  color: brown;
+  
+}
+.feature-box i:hover{
+  color: #ff4c68;
+}
+.feature-box{
+  text-align: center;
+}
